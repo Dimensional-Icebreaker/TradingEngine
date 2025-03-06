@@ -3,7 +3,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 
 class Order {
-    String orderType; // 'Buy' or 'Sell'
+    String orderType; 
     String ticker;
     int quantity;
     int price;
