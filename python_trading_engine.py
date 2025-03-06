@@ -16,7 +16,7 @@ class AtomicCounter:
 class Order:
     """ Represents an order in the order book. """
     def __init__(self, order_type, ticker, quantity, price, order_id):
-        self.order_type = order_type  # 'Buy' or 'Sell'
+        self.order_type = order_type  
         self.ticker = ticker
         self.quantity = quantity
         self.price = price
