@@ -69,3 +69,20 @@ The project consists of the following key components:
 1. Compile the Java code using:
    ```bash
    javac TradingEngine.java
+2. Run the Java program
+   ```bash
+   java TradingEngine
+### Python Implementation
+1. **Install required dependencies**:
+   ```bash
+      pip install threading
+
+2. Run the Python program
+   ```bash
+   python trading_engine.py
+
+#Conclusion
+This project provides a simplified yet effective model for a stock trading engine, emphasizing real-time order matching and concurrent transaction handling. With improvements in lock-free data structures, order matching algorithms, and concurrency management, this engine can be further optimized for high-performance use in real-world scenarios.
+
+   
+
